@@ -203,6 +203,13 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+main {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
 
 
 /* ===== STATE STYLES ======= */
