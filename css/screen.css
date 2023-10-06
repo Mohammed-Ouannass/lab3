@@ -231,6 +231,8 @@ li {
   list-style: none;
 }
 
+/* ===== STATE STYLES ======= */
+
 /* Mobile-specific styling for better visibility */
 @media (max-width: 800px) {
   html {
@@ -251,6 +253,18 @@ li {
   }
 }
 
+/* Mobile-scale Form Styling */
+/* Styles for input regions with shades of gray */
+#email,
+#age-verification,
+#submit {
+  background-color: #E0E0E0; /* Light gray background */
+  border: 1px solid #B0B0B0; /* Medium gray border */
+  color: #333; /* Dark gray text color */
+  padding: 0.5em; /* Add padding to input fields */
+  margin-bottom: 1em; /* Add margin to create space between input fields */
+}
 
-/* ===== STATE STYLES ======= */
+
+
 
