@@ -234,7 +234,7 @@ li {
 /* ===== STATE STYLES ======= */
 
 /* Mobile-specific styling for better visibility */
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   html {
     background-color: #f5f5f5;
     color: #333333;
@@ -260,7 +260,7 @@ li {
 
 /* Mobile-scale Form Styling */
 /* Styles for input regions with shades of gray */
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   #email,
   #age-verification,
   #submit {
