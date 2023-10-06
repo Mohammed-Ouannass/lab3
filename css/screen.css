@@ -209,6 +209,14 @@ html {
   font-size: 1rem; /* 16px - base font size */
 }
 
+/* Create a mobile-friendly form */
+form {
+  max-width: 400px; /* Adjust as needed for your layout */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8; /* Light gray background */
+}
+
 /* ===== LAYOUT STYLES ====== */
 
 
