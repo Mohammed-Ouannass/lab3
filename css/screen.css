@@ -204,7 +204,7 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 main {
-  width: 700px;
+  width: 800px;
   margin: auto;
   text-align: center;
   display: flex;
@@ -213,7 +213,7 @@ main {
 
 html {
   font-family: 'Fanwood Text', Georgia, Garamond, serif;
-  background-color: #f5f5f5;
+  background-color: #EDC2C2;
 }
 
 h1 {
