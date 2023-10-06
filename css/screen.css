@@ -231,6 +231,16 @@ li {
   list-style: none;
 }
 
+/* Mobile-specific styling for better visibility */
+@media (max-width: 800px) {
+  html {
+    color: white;
+    background-color: #696969;
+    font-size: 1.2em;
+    text-rendering: optimizeLegibility;
+    font-family: Verdana, Tahoma, "Courier New", sans-serif;
+  }
+
 
 /* ===== STATE STYLES ======= */
 
