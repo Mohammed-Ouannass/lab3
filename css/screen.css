@@ -227,6 +227,10 @@ h1 {
   padding-right: 2em;
 }
 
+li {
+  list-style: none;
+}
+
 
 /* ===== STATE STYLES ======= */
 
