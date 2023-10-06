@@ -223,5 +223,9 @@ form {
 /* ===== STATE STYLES ======= */
 
 
-
+/* Style input regions */
+input[type="email"], input[type="checkbox"], input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
 
