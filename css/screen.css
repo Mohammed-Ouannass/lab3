@@ -207,3 +207,10 @@ label {
 
 /* ===== STATE STYLES ======= */
 
+
+/* Mobile-Scale Form Styles*/
+
+/* Use the modular typographic scale */
+html{
+	font-size: 1rem; /*16px - base font size */
+
