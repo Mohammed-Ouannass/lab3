@@ -221,6 +221,46 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* Input Styles */
+input[type="email"],
+input[type="checkbox"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-bottom: 0;
+}
+
+/* Button Styles */
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
 
 
 /* ===== STATE STYLES ======= */
