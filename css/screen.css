@@ -240,6 +240,16 @@ li {
     text-rendering: optimizeLegibility;
     font-family: Verdana, Tahoma, "Courier New", sans-serif;
   }
+  
+  h1 {
+    font-size: 2em;
+    background-color: #DCDCDC;
+    color: black;
+  }
+  main {
+    width: 75%;
+  }
+}
 
 
 /* ===== STATE STYLES ======= */
