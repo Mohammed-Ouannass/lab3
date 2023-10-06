@@ -211,6 +211,22 @@ main {
   flex-wrap: nowrap;
 }
 
+html {
+  font-family: 'Fanwood Text', Georgia, Garamond, serif;
+  background-color: #EDC2C2;
+}
+
+h1 {
+  font-size: 2em;
+  padding-bottom: 1.182em;
+  padding-top: 1.182em;
+  line-height: 1.9em;
+  display: block;
+  background-color: #C08080;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 
 /* ===== STATE STYLES ======= */
 
