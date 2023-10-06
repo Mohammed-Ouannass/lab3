@@ -235,3 +235,11 @@ input[type="email"], input[type="checkbox"], input[type="submit"] {
   line-height: 1.5;
 }
 
+/* Style labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333; /* Dark gray text color */
+}
+
