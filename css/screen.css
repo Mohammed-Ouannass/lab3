@@ -236,44 +236,45 @@ li {
 /* Mobile-specific styling for better visibility */
 @media (max-width: 800px) {
   html {
-    color: white;
-    background-color: #696969;
-    font-size: 1.2em;
-    text-rendering: optimizeLegibility;
-    font-family: Verdana, Tahoma, "Courier New", sans-serif;
+    background-color: #F5F5F5; 
+    color: #333333; 
+    font-size: 1.2em; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
-  
+
   h1 {
-    font-size: 2em;
-    background-color: #DCDCDC;
-    color: black;
+    font-size: 1.8em; 
+    background-color: #CCCCCC; 
+    color: #333333; 
   }
+
   main {
     width: 75%;
   }
 }
+
 
 /* Mobile-scale Form Styling */
 /* Styles for input regions with shades of gray */
 #email,
 #age-verification,
 #submit {
-  background-color: #E0E0E0; /* Light gray background */
-  border: 1px solid #B0B0B0; /* Medium gray border */
-  color: #333; /* Dark gray text color */
-  padding: 0.5em; /* Add padding to input fields */
-  margin-bottom: 1em; /* Add margin to create space between input fields */
+  background-color: #F5F5F5; 
+  border: 1px solid #CCCCCC; 
+  color: #333333; 
+  padding: 0.5em; 
+  margin-bottom: 1em; 
 }
 
 /* Adjust padding for labels */
 label[for="email"],
 label[for="age-verification"] {
-  padding-top: 1em; /* Add padding to the top of labels */
+  padding-top: 1em; 
 }
 
 /* Robust font stack with system fonts */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 
